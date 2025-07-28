@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="509" height="250" viewBox="0 0 509 250" fill="none">
+  <defs>
+    <clipPath id="clip-left-to-right">
+      <!-- This rectangle will be the initial clip path, starting at x = 0 and gradually moving across -->
+      <rect x="0" y="0" width="0" height="250"/>
+    </clipPath>
+  </defs>
+
+  <!-- Apply the clip-path to your SVG -->
+  <g clip-path="url(#clip-left-to-right)">
+    <path d="M466.5 193.5C332.166 46.9727 238.581 30.2087 36.0011 165.525C28.8818 170.281 28.1125 180.516 34.4684 186.252C39.1416 190.469 46.146 190.798 51.2353 187.093C112.979 142.151 163.335 113.003 209.5 99.9639C294.425 75.9763 365.162 106.502 466.5 193.5Z" fill="#FF9E00"/>
+    <path d="M470.227 207.867L413.84 185.607L461.311 147.905L470.227 207.867Z" fill="#FF9E00"/>
+  </g>
+
+  <!-- Define the animation -->
+  <style>
+    @keyframes reveal {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%; /* Full width of the SVG */
+      }
+    }
+    /* Apply the animation to the clip-path */
+    #clip-left-to-right rect {
+      animation: reveal 2s ease-in-out infinite forwards;
+      animation-delay: .1s;
+    }
+  </style>
+</svg>
