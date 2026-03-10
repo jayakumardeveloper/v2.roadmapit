@@ -1,589 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
-<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cash Management | Roadmap</title>
-    <meta name="title" content="Cash Management | Roadmap ERP">
-    <meta name="description" content="Manage and forecast your cash flow with ease. Roadmap ERP’s Cash Management module offers real-time tracking, bank reconciliation, and multi-currency support.">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Roadmap ERP">
-    <meta name="keywords" content="Cash Management, ERP Cash Management, Cash Flow Forecasting, Bank Reconciliation, Multi-Currency ERP, Petty Cash Tracking, Post Dated Cheques, Roadmap ERP, Financial Management, Real-Time Financial Reporting">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:title" content="Cash Management | Roadmap ERP">
-    <meta property="og:description" content="Gain real-time visibility of your cash flow. Automate payments, reconcile bank accounts, forecast liquidity, and manage petty cash seamlessly with Roadmap ERP.">
-    <meta property="og:image" content="">
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="">
-    <meta name="twitter:title" content="Cash Management | Roadmap ERP">
-    <meta name="twitter:description" content="Optimize your organization's liquidity with real-time cash forecasting, bank reconciliation, and seamless multi-currency management.">
-    <meta name="twitter:image" content="">
-    <!-- Canonical URL -->
-    <link rel="canonical" href="">
-    <!-- Favicon -->
-    <link href="/assets/img/icon/roadmap_logo_favicon.png" rel="icon">
-    <!-- aos  -->
+    <title>Cash Management ERP | Real-Time Cash Flow & Bank Reconciliation | RoadmapIT</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Track cash flow in real time with RoadmapIT’s Cash Management ERP. Automate bank reconciliation, manage petty cash, forecast liquidity, and support multi-currency payments effortlessly." />
+    <meta name="keywords" content="Cash Management ERP, Cash Flow Forecasting, Bank Reconciliation ERP, Multi-Currency ERP, Petty Cash Tracking, Post-Dated Cheques ERP, Financial Reporting ERP, Liquidity Management ERP" />
+    <meta name="author" content="RoadmapIT Solution" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:site_name" content="RoadmapIT Solution" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://roadmapit.com/financial-management/cash-management.html" />
+    <meta property="og:title" content="Cash Management ERP | Track & Forecast Cash Flow" />
+    <meta property="og:description" content="Monitor and control your cash flow with automated reconciliation, liquidity forecasting, petty cash management, and multi-currency handling." />
+    <meta property="og:image" content="https://roadmapit.com/assets/img/all-products/crm-dashboard.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://roadmapit.com/financial-management/cash-management.html" />
+    <meta name="twitter:title" content="Cash Management ERP | Real-Time Cash Flow Visibility" />
+    <meta name="twitter:description" content="Enhance liquidity planning with bank reconciliation automation, petty cash tracking, and real-time cash forecasting using RoadmapIT ERP." />
+    <meta name="twitter:image" content="https://roadmapit.com/assets/img/all-products/crm-dashboard.png" />
+    <link rel="canonical" href="https://roadmapit.com/financial-management/cash-management.html" />
+    <link rel="preload" href="/assets/css/output.css" as="style" />
+    <link rel="preload" href="/assets/css/style.css" as="style" />
+    <link rel="preload" href="/assets/fonts/urbanist/Urbanist-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/urbanist/Urbanist-Medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/bootstrap-icons.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/img/all-products/crm-dashboard.png" as="image" />
+    <link rel="preload" href="/assets/img/all-products/pin-dart.svg" as="image" />
+    <link rel="preload" href="/assets/img/all-products/draw-check.png" as="image" />
+    <link rel="preload" href="/assets/img/all-products/arrow_white.svg" as="image" />
+    <link rel="preload" href="/assets/img/all-products/call-to-action-footer.png" as="image" />
+    <link rel="icon" href="https://roadmapit.com/assets/img/icon/roadmap-logo-ico.ico" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" href="/assets/css/aos.css" />
-    <!-- animate css -->
     <link rel="stylesheet" href="/assets/css/animate.min.css" />
-    <!-- slider  -->
     <link rel="stylesheet" href="/assets/css/swiper-bundle.css" />
-    <!-- compiled from input.css -->
-    <link rel="stylesheet" href="/assets/css/output.css" />
-    <!-- spacing css -->
-    <link rel="stylesheet" href="/assets/css/spacing.css" />
-    <!-- overwrite custom css -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <!-- fa icons css -->
     <link rel="stylesheet" href="/assets/css/all.min.css" />
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/bootstrap-icons.min.css">
-    <!-- owl css -->
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
-    <!-- slick css -->
-    <link rel="stylesheet" href="/assets/css/slick.min.css">
-    <link rel="stylesheet" href="/assets/css/slick-theme.min.css">
-</head>
-
-<body id="root" class="relative erpProd-body-bg">
-    <div class="flex justify-center w-full fixed top-0 z-[99999]" id="stickyHeader">
-        <!-- header loaded js -->
-    </div>
-    <!-- mobile nav  -->
-    <header id="mnav-menu-item" class="w-screen screen-height bg-black/5 left-0 fixed top-[69px] -translate-x-[100vw] transition-all duration-300 lg:hidden z-[99999999]">
-        <!-- Mobile menu loaded -->
-    </header>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="/assets/css/slick.min.css" />
+    <link rel="stylesheet" href="/assets/css/slick-theme.min.css" />
+    <link rel="stylesheet" href="/assets/css/spacing.css" />
+    <link rel="stylesheet" href="/assets/css/output.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body id="root" class="relative erpProd-body-bg">
+    <div class="container-fluid px-0 justify-center w-full fixed top-0 z-[999]" id="stickyHeader"></div>
+    <header id="mnav-menu-item" class="w-screen screen-height bg-black/5 left-0 fixed top-[69px] -translate-x-[100vw] transition-all duration-300 lg:hidden z-[99999999]"></header>
     <main id="">
-        <!-- Landing screen accounts start -->
-        <section class="relative max-w-[100vw] flex justify-center items-center bg-heroCash overflow-hidden">
-            <div class="container-fluid py-5 px-4 xxl:px-0">
-                <div class="row items-center justify-center">
-                    <div class="col-md-6 col-12 order-md-1 order-2">
-                        <h1 class="w-full lg:max-w-[573px] display-1 fw-bold animate__animated animate__slideInLeft">Cash Management</h1>
-                        <p class="fs-5 animate__animated animate__slideInUp">ERP system enables organizations to respond more swiftly and effectively to the changing demands and needs of customers and suppliers.</p>
-                        <div class="w-fit mt-40">
-                            <div class="bg-btn-wrapper animate__animated animate__slideInLeft">
-                                <a class="bg-btn fs-5" href="/signup/crm-signup.html">Get Started Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-12 order-md-2 order-1 animate__animated animate__slideInRight">
-                        <span class="cashImg"></span>
-                    </div>
-                </div>
+      <section class="relative max-w-[100vw] flex justify-center items-center bg-heroCash overflow-hidden">
+        <div class="container-fluid py-5 px-4 xxl:px-0">
+          <div class="row items-center justify-center">
+            <div class="col-md-6 col-12 order-md-1 order-2">
+              <h1 class="w-full lg:max-w-[573px] display-1 fw-bold animate__animated animate__slideInLeft">Cash Management</h1>
+              <p class="fs-5 animate__animated animate__slideInUp">ERP system enables organizations to respond more swiftly and effectively to the changing demands and needs of customers and suppliers.</p>
+              <div class="w-fit mt-40">
+                <div class="bg-btn-wrapper animate__animated animate__slideInLeft"><a class="bg-btn fs-5" href="/contact-us.html">Get Started Now</a></div>
+              </div>
             </div>
-        </section>
-        <!-- Landing screen accounts end -->
-        <!-- Overview accounts start -->
-        <section class="pt-50 pb-50 bg-white">
-            <div class="container overflow-hidden">
-                <div class="row wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                    <div class="col-md-10 mb-3 mx-auto">
-                        <h1 class="display-6 fw-bold text-center text-capitalize">Cash <span class="text-sb-orange">Management</span></h1>
-                    </div>
-                    <div class="col-12 my-3">
-                        <p class="fs-5 text-center mb-4">Roadmap ERP’s Accounts Receivable (AR) module capacitates you to document a complete account of your business receivables without a hitch. Cushioned by the automated scheduling tool and ease of access to collection history, you can perform customer analysis and organize your collection process almost effortlessly. Rule the Receivables process: Automatic Offset, a means generally used for AP, is devised into AR in Roadmap ERP to perform advanced sales analysis giving you the edge of procuring territory and individual sales person based Sales Performance, Commission, and Receivables inferences; and Cost of Sales information with multi-currency support.</p>
-                    </div>
-                </div>
+            <div class="col-md-5 col-12 order-md-2 order-1 animate__animated animate__slideInRight"><span class="cashImg"></span></div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-50 pb-50 bg-white">
+        <div class="container overflow-hidden">
+          <div class="row wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="col-md-10 mb-3 mx-auto">
+              <h1 class="display-6 fw-bold text-center text-capitalize">
+                Cash
+                <span class="text-sb-orange">Management</span>
+              </h1>
             </div>
-        </section>
-        <!-- Overview accounts end -->
-        <!-- Benefits accounts start -->
-        <section class="pt-50 pb-50 bg-offColor position-relative">
-            <div class="container">
-                <div class="row justify-content-evenly slide-benefits">
-                    <div class="col-md-10 mb-4 mx-auto overflow-hidden">
-                        <h1 class="display-6 fw-bold text-center wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">Benefits</h1>
-                    </div>
-                    <div class="col-md-5 slide-benefit px-4 py-3 mb-40">
-                        <p class="fs-6 text-justify m-0">Easily channelize cash between bank accounts, and keep a tab on funds that are in transit.</p>
-                    </div>
-                    <div class="col-md-5 slide-benefit px-4 py-3 mb-40">
-                        <p class="fs-6 text-justify m-0">Guided by the module's accurate forecast of your financial standings, based on actual Vs predicted cash scenario; recover the investment on your business inputs within a short period.</p>
-                    </div>
-                    <div class="col-md-5 slide-benefit px-4 py-3 mb-40">
-                        <p class="fs-6 text-justify m-0">Benefit from the integration between the modules that effect the simplification of Bank Reconciliation processes.</p>
-                    </div>
-                    <div class="col-md-5 slide-benefit px-4 py-3 mb-40">
-                        <p class="fs-6 text-justify m-0">Track your cheques, both issued and received and stay free of anxiety.</p>
-                    </div>
-                    <div class="col-md-5 slide-benefit px-4 py-3 mb-40">
-                        <p class="fs-6 text-justify m-0">Stay in tune with the course of your cash, through the provision of real-time analysis on the inward and outward movement of your finances.</p>
-                    </div>
-                    <div class="col-md-5 slide-benefit px-4 py-3 mb-40">
-                        <p class="fs-6 text-justify m-0">Gain clarity on your cash oriented financial status through the modules ability to furnish you with bank book, cash book and bank reconciliation statements.</p>
-                    </div>
-                </div>
+            <div class="col-12 my-3"><p class="fs-5 text-center mb-4">Roadmap ERP’s Accounts Receivable (AR) module capacitates you to document a complete account of your business receivables without a hitch. Cushioned by the automated scheduling tool and ease of access to collection history, you can perform customer analysis and organize your collection process almost effortlessly. Rule the Receivables process: Automatic Offset, a means generally used for AP, is devised into AR in Roadmap ERP to perform advanced sales analysis giving you the edge of procuring territory and individual sales person based Sales Performance, Commission, and Receivables inferences; and Cost of Sales information with multi-currency support.</p></div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-50 pb-50 bg-offColor position-relative">
+        <div class="container">
+          <div class="row justify-content-evenly slide-benefits">
+            <div class="col-md-10 mb-4 mx-auto overflow-hidden"><h1 class="display-6 fw-bold text-center wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">Benefits</h1></div>
+            <div class="col-md-5 slide-benefit px-4 py-3 mb-40"><p class="fs-6 text-justify m-0">Easily channelize cash between bank accounts, and keep a tab on funds that are in transit.</p></div>
+            <div class="col-md-5 slide-benefit px-4 py-3 mb-40"><p class="fs-6 text-justify m-0">Guided by the module's accurate forecast of your financial standings, based on actual Vs predicted cash scenario; recover the investment on your business inputs within a short period.</p></div>
+            <div class="col-md-5 slide-benefit px-4 py-3 mb-40"><p class="fs-6 text-justify m-0">Benefit from the integration between the modules that effect the simplification of Bank Reconciliation processes.</p></div>
+            <div class="col-md-5 slide-benefit px-4 py-3 mb-40"><p class="fs-6 text-justify m-0">Track your cheques, both issued and received and stay free of anxiety.</p></div>
+            <div class="col-md-5 slide-benefit px-4 py-3 mb-40"><p class="fs-6 text-justify m-0">Stay in tune with the course of your cash, through the provision of real-time analysis on the inward and outward movement of your finances.</p></div>
+            <div class="col-md-5 slide-benefit px-4 py-3 mb-40"><p class="fs-6 text-justify m-0">Gain clarity on your cash oriented financial status through the modules ability to furnish you with bank book, cash book and bank reconciliation statements.</p></div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-80 pb-50 bg-ess overflow-hidden">
+        <div class="container-fluid">
+          <div class="row justify-content-evenly">
+            <div class="col-md-10 mx-auto mb-4 wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+              <h1 class="display-6 fw-bold text-center mb-4 text-white">Timely Processing of Payments and Receipts for Invoices</h1>
+              <p class="fs-5 text-center text-white">Roadmap Cash Management system provides timely processing of payments / receipts against invoices or any other advices through cheque / DD / Bank Transfers / cash and allows reconciling bank accounts with financial accounts quickly and easily. Miscellaneous transactions such as Bank charges, Interest and Loan instalment's are also processed appropriately.</p>
             </div>
-        </section>
-        <!-- Benefits accounts end -->
-
-        <!-- Accordion screen start -->
-        <section class="pt-80 pb-50 bg-ess overflow-hidden">
-            <div class="container-fluid">
-                <div class="row justify-content-evenly">
-                    <div class="col-md-10 mx-auto mb-4 wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <h1 class="display-6 fw-bold text-center mb-4 text-white">Timely Processing of Payments and Receipts for Invoices</h1>
-                        <p class="fs-5 text-center text-white">Roadmap Cash Management system provides timely processing of payments / receipts against invoices or any other advices through cheque / DD / Bank Transfers / cash and allows reconciling bank accounts with financial accounts quickly and easily. Miscellaneous transactions such as Bank charges, Interest and Loan instalment's are also processed appropriately.</p>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 p-0 wow animate__animated animate__slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <span class="accDash_before">
-                            <img src="/assets/img/all-products/crm-dashboard.png" alt="CRM Accounts Payable" class="rounded-4">
-                        </span>
-                    </div>
-                    <div class="col-md-5 col-sm-6 col-12 wow animate__animated animate__slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <div class="bg-transparent flex flex-col h2-faq-wrapper">
-                            <!-- single card -->
-                            <div class=" bg-white mb-4 faq-toggler overflow-hidden transition-all duration-300 rounded-md">
-                                <h1 class="flex h-fit items-center gap-5 p-4 rounded-[5px] bg-white pointer-events-none">
-                                    <span class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl">
-                                        <span class="plus">+</span>
-                                        <span class="scale-x-125 minuse hidden">-</span>
-                                    </span>
-                                    <span class="text-lg font-bold flex-1">Multiple Bank Accounts</span>
-                                </h1>
-                                <!-- Description  -->
-                                <p class="p-4 pt-0 rounded-b-md bg-white text-paragraph text-lg pointer-events-none">Multiple Bank Accounts with different currencies of operation.</p>
-                            </div>
-                            <!-- single card -->
-                            <div class="bg-white mb-4 faq-toggler overflow-hidden transition-all duration-300 rounded-md">
-                                <h1 class="flex h-fit items-center gap-5 p-4 rounded-[5px] bg-white pointer-events-none">
-                                    <span class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl">
-                                        <span class="plus">+</span>
-                                        <span class="scale-x-125 minuse hidden">-</span>
-                                    </span>
-                                    <span class="text-lg font-bold flex-1">Multiple Petty Cash Accounts</span>
-                                </h1>
-                                <!-- Description  -->
-                                <p class="p-4 pt-0 rounded-b-md bg-white text-paragraph text-lg pointer-events-none">Multiple petty cash accounts and supports payment / receipt to / from customer, suppliers, employees and transfer to other petty cash.</p>
-                            </div>
-                            <!-- single card -->
-                            <div class="bg-white mb-4 faq-toggler overflow-hidden transition-all duration-300 rounded-md">
-                                <h1 class="flex h-fit items-center gap-5 p-4 rounded-[5px] bg-white pointer-events-none">
-                                    <span class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl">
-                                        <span class="plus">+</span>
-                                        <span class="scale-x-125 minuse hidden">-</span>
-                                    </span>
-                                    <span class="text-lg font-bold flex-1">Payment Voucher</span>
-                                </h1>
-                                <!-- Description  -->
-                                <p class="p-4 pt-0 rounded-b-md bg-white text-paragraph text-lg pointer-events-none">Preparation of payment voucher and payment through cheque / cash / DD / bank transfer,Cash flow estimation.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-4 col-sm-6 col-12 p-0 wow animate__animated animate__slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+              <span class="accDash_before"><img src="/assets/img/all-products/crm-dashboard.png" alt="CRM Accounts Payable" class="rounded-4" /></span>
             </div>
-        </section>
-        <!-- Accordion screen end -->
-        <!-- cash management points start -->
-        <section class="pt-50 pb-50 bg-white">
-            <div class="container overflow-hidden">
-                <div class="row wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                    <div class="col-md-10 mx-auto mb-5">
-                        <h1 class="display-6 fw-bold text-center"><span class="text-sb-orange">Bank </span>Transactions</h1>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Advance payment against (1) Purchase Order (2) Proforma Invoice.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Multi currency receipts from customer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Issuance of post dated cheque and auto posting.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Bank Charges entry.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Receipt against (1) Customer Invoices (2) Revenue.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Fund transfer entry between bank accounts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Advance receipt against (1) Sales Orders (2) Proforma Invoice.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Bank Interest calculation.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Cash receipt from multiple customers and single deposit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Clear / Void Payment / Receipt documents.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Foreign receipts bank advice entry (Charges at offshore, Local Handling).</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Load the bank statements(text file) and clear the matched documents.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Receipt of post dated cheque and auto posting.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Bank Reconciliation.</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-5 col-sm-6 col-12 wow animate__animated animate__slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+              <div class="bg-transparent flex flex-col h2-faq-wrapper">
+                <div class="bg-white mb-4 faq-toggler overflow-hidden transition-all duration-300 rounded-md">
+                  <h1 class="flex h-fit items-center gap-5 p-4 rounded-[5px] bg-white pointer-events-none">
+                    <span class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl">
+                      <span class="plus">+</span>
+                      <span class="scale-x-125 minuse hidden">-</span>
+                    </span>
+                    <span class="text-lg font-bold flex-1">Multiple Bank Accounts</span>
+                  </h1>
+                  <p class="p-4 pt-0 rounded-b-md bg-white text-paragraph text-lg pointer-events-none">Multiple Bank Accounts with different currencies of operation.</p>
                 </div>
-            </div>
-        </section>
-        <!-- cash management points end -->
-        <!-- cash management points start -->
-        <section class="pt-50 pb-80 bg-plant-preven">
-            <div class="container">
-                <div class="row wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                    <div class="col-md-10 mx-auto mb-5">
-                        <h1 class="display-6 fw-bold text-center"><span class="text-sb-orange">Cash Transaction </span>& Forecasting</h1>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Payment for (1) Supplier bills (2) Expenses (3) Processed Payroll (4) Employee Payable's (5) Tax Authorities.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Petty Cash Reversal / Cancel.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Miscellaneous Payment / Receipt (1) Supplier (2) Customer (3) Employee (4) Cash (5) Imprest.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Generation of Cash Forecasting and comparing with actual.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Advance payment against PO.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Actual Cash Inflow / outflow analysis.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Receipt against (1) Customer Invoices (2) Revenue.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Supplier / Customer Document Adjustment.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Advance cash receipt from customer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Tracking un-cleared cheques issued and received.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-30">
-                        <div class="row">
-                            <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw"></div>
-                            <div class="col-10 align-content-center">
-                                <p style="font-size: 18px;" class="text-justify mb-0">Bank book, cash book and bank reconciliation statement.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="bg-white mb-4 faq-toggler overflow-hidden transition-all duration-300 rounded-md">
+                  <h1 class="flex h-fit items-center gap-5 p-4 rounded-[5px] bg-white pointer-events-none">
+                    <span class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl">
+                      <span class="plus">+</span>
+                      <span class="scale-x-125 minuse hidden">-</span>
+                    </span>
+                    <span class="text-lg font-bold flex-1">Multiple Petty Cash Accounts</span>
+                  </h1>
+                  <p class="p-4 pt-0 rounded-b-md bg-white text-paragraph text-lg pointer-events-none">Multiple petty cash accounts and supports payment / receipt to / from customer, suppliers, employees and transfer to other petty cash.</p>
                 </div>
-            </div>
-        </section>
-        <!-- cash management points end -->
-
-
-        <!-- cta start -->
-        <section class="mt-50 mb-50 position-relative">
-            <div class="py-4 engin-cta align-content-center">
-                <div class="container-fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8">
-                            <h1 class="display-5 fw-bold text-white text-center wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">START YOUR <span class="display-5 fw-bold text-dark">ERP SOFTWARE</span> TODAY</h1>
-                        </div>
-                        <div class="col-md-2 text-center align-content-center">
-                            <a href="/signup/crm-signup.html" class="btn btn-hov-light fs-4 px-4 fw-bold mx-auto wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">Let's Started</a>
-                        </div>
-                    </div>
+                <div class="bg-white mb-4 faq-toggler overflow-hidden transition-all duration-300 rounded-md">
+                  <h1 class="flex h-fit items-center gap-5 p-4 rounded-[5px] bg-white pointer-events-none">
+                    <span class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl">
+                      <span class="plus">+</span>
+                      <span class="scale-x-125 minuse hidden">-</span>
+                    </span>
+                    <span class="text-lg font-bold flex-1">Payment Voucher</span>
+                  </h1>
+                  <p class="p-4 pt-0 rounded-b-md bg-white text-paragraph text-lg pointer-events-none">Preparation of payment voucher and payment through cheque / cash / DD / bank transfer,Cash flow estimation.</p>
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- cta end -->
-        <!-- cash management benefits points start -->
-        <section class="pt-100 pb-50 bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-9 px-5 mx-auto mb-4 overflow-hidden">
-                        <h1 class="fw-bold text-center display-6 text-capitalize wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">Benefits of <span class="text-sb-orange">Accounts Receivable</span></h1>
-                    </div>
-                    <div class="col-12 col-md-4 text-center my-3">
-                        <div class="crc"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div><br>
-                        <h4 class="my-3 fw-bold">Cash Forecasting Analysis</h4>
-                    </div>
-                    <div class="col-12 col-md-4 text-center my-3">
-                        <div class="crc"><i class="fa fa-line-chart" aria-hidden="true"></i></div><br>
-                        <h4 class="my-3 fw-bold">Cash Outflow</h4>
-                    </div>
-                    <div class="col-12 col-md-4 text-center my-3">
-                        <div class="crc"><i class="fa fa-bolt" aria-hidden="true"></i></div><br>
-                        <h4 class="my-3 fw-bold">Cash Inflow</h4>
-                    </div>
-                    <div class="col-12 col-md-4 text-center my-3">
-                        <div class="crc"><i class="fa fa-money" aria-hidden="true"></i></div><br>
-                        <h4 class="my-3 fw-bold">Actual cash inflow / outflow Analysis</h4>
-                    </div>
-                    <div class="col-12 col-md-4 text-center my-3">
-                        <div class="crc"><i class="fa fa-users" aria-hidden="true"></i></div><br>
-                        <h4 class="my-3 fw-bold">Bank Interest calculation</h4>
-                    </div>
-                    <div class="col-12 col-md-4 text-center my-3">
-                        <div class="crc"><i class="fa fa-check-circle" aria-hidden="true"></i></div><br>
-                        <h4 class="my-3 fw-bold">Track uncleared / Post dated chq.</h4>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-50 pb-50 bg-white">
+        <div class="container overflow-hidden">
+          <div class="row wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="col-md-10 mx-auto mb-5">
+              <h1 class="display-6 fw-bold text-center">
+                <span class="text-sb-orange">Bank</span>
+                Transactions
+              </h1>
             </div>
-        </section>
-        <!-- accounts receive benefits points end -->
-        <!-- ERP accounts start -->
-        <section class="pt-80 pb-50 bg-ess overflow-hidden">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 mb-4 wow animate__animated animate__slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <h1 class="display-6 fw-bold mb-30">Extending the Power of Roadmap ERP</h1>
-                        <p class="fs-5 text-justify">The Roadmap ERP’s core applications are designed to ready-fit 50+ industry types. Yet if there might be any mismatch between your business process requirements and the ERP, our ERP can easily be customized to match your needs in no time.</p>
-                    </div>
-                    <div class="col-md-5 mb-4 p-0 accDash_before wow animate__animated animate__slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <img src="/assets/img/all-products/roadmap-erp-accounts-payable.svg" alt="roadmap erp accounts payable management" class="img-fluid m-0">
-                    </div>
-                </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Advance payment against (1) Purchase Order (2) Proforma Invoice.</p></div>
+              </div>
             </div>
-        </section>
-        <!-- ERP accounts end -->
-        <!-- ERP on cloud accounts start -->
-        <section class="py-1 bg-white">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 pt-100 pb-100 mb-10 erp-cloudBg1">
-                        <h1 class="fs-5 text-center lh-base wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s"><span style="position: relative; top: -5px;"><i class="fa fa-quote-left fs-5 pr-10"></i></span>Take ownership of your ERP on the cloud with significantly reduced implementation costs and seamless ongoing service through affordable monthly subscriptions.<span style="position: relative; top: -5px;"><i class="fa fa-quote-right fs-5 pl-10"></i></span></h1>
-                        <div class="w-fit mt-40 mx-auto">
-                            <div class="bg-btn-wrapper animate__animated animate__slideInLeft">
-                                <a class="bg-btn fs-5" href="/signup/crm-signup.html">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 pt-100 pb-100 mb-10 erp-cloudBg2">
-                        <h1 class="fs-5 text-center w-75 mx-auto lh-base wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">Curious to learn more about our comprehensive <span class="fw-bold">Full-Suite ERP?</span></h1>
-                        <div class="w-fit mt-40 mx-auto">
-                            <div class="border-btn-wrapper animate__animated animate__slideInLeft">
-                                <a class="border-btn fs-5" href="/signup/crm-signup.html">Join Us Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Multi currency receipts from customer.</p></div>
+              </div>
             </div>
-        </section>
-        <!-- ERP on cloud accounts end -->
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Issuance of post dated cheque and auto posting.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Bank Charges entry.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Receipt against (1) Customer Invoices (2) Revenue.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Fund transfer entry between bank accounts.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Advance receipt against (1) Sales Orders (2) Proforma Invoice.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Bank Interest calculation.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Cash receipt from multiple customers and single deposit.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Clear / Void Payment / Receipt documents.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Foreign receipts bank advice entry (Charges at offshore, Local Handling).</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Load the bank statements(text file) and clear the matched documents.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Receipt of post dated cheque and auto posting.</p></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/pin-dart.svg" alt="pin dart" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Bank Reconciliation.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-50 pb-80 bg-plant-preven">
+        <div class="container">
+          <div class="row wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="col-md-10 mx-auto mb-5">
+              <h1 class="display-6 fw-bold text-center">
+                <span class="text-sb-orange">Cash Transaction</span>
+                & Forecasting
+              </h1>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Payment for (1) Supplier bills (2) Expenses (3) Processed Payroll (4) Employee Payable's (5) Tax Authorities.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Petty Cash Reversal / Cancel.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Miscellaneous Payment / Receipt (1) Supplier (2) Customer (3) Employee (4) Cash (5) Imprest.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Generation of Cash Forecasting and comparing with actual.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Advance payment against PO.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Actual Cash Inflow / outflow analysis.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Receipt against (1) Customer Invoices (2) Revenue.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Supplier / Customer Document Adjustment.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Advance cash receipt from customer.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Tracking un-cleared cheques issued and received.</p></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mb-30">
+              <div class="row">
+                <div class="col-2 pe-0"><img class="img-fluid w-50 ms-auto" src="/assets/img/all-products/draw-check.png" alt="check box draw" /></div>
+                <div class="col-10 align-content-center"><p style="font-size: 18px" class="text-justify mb-0">Bank book, cash book and bank reconciliation statement.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt-50 mb-50 position-relative">
+        <div class="py-5 engin-cta align-content-center">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <h1 class="display-5 fw-bold text-white text-center wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                  START YOUR
+                  <span class="display-5 fw-bold text-dark">ERP SOFTWARE</span>
+                  TODAY
+                </h1>
+              </div>
+              <div class="col-md-2 text-center align-content-center"><a href="/signup/crm-signup.html" class="btn btn-hov-light fs-4 px-4 fw-bold mx-auto wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">Let's Started</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-100 pb-50 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-9 px-5 mx-auto mb-4 overflow-hidden">
+              <h1 class="fw-bold text-center display-6 text-capitalize wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                Benefits of
+                <span class="text-sb-orange">Accounts Receivable</span>
+              </h1>
+            </div>
+            <div class="col-12 col-md-4 text-center my-3">
+              <div class="crc"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div>
+              <br />
+              <h4 class="my-3 fw-bold">Cash Forecasting Analysis</h4>
+            </div>
+            <div class="col-12 col-md-4 text-center my-3">
+              <div class="crc"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+              <br />
+              <h4 class="my-3 fw-bold">Cash Outflow</h4>
+            </div>
+            <div class="col-12 col-md-4 text-center my-3">
+              <div class="crc"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+              <br />
+              <h4 class="my-3 fw-bold">Cash Inflow</h4>
+            </div>
+            <div class="col-12 col-md-4 text-center my-3">
+              <div class="crc"><i class="fa fa-money" aria-hidden="true"></i></div>
+              <br />
+              <h4 class="my-3 fw-bold">Actual cash inflow / outflow Analysis</h4>
+            </div>
+            <div class="col-12 col-md-4 text-center my-3">
+              <div class="crc"><i class="fa fa-users" aria-hidden="true"></i></div>
+              <br />
+              <h4 class="my-3 fw-bold">Bank Interest calculation</h4>
+            </div>
+            <div class="col-12 col-md-4 text-center my-3">
+              <div class="crc"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+              <br />
+              <h4 class="my-3 fw-bold">Track uncleared / Post dated chq.</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-1 bg-white">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 pt-100 pb-100 mb-10 erp-cloudBg1">
+              <h1 class="fs-5 text-center lh-base wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                <span style="position: relative; top: -5px"><i class="fa fa-quote-left fs-5 pr-10"></i></span>
+                Take ownership of your ERP on the cloud with significantly reduced implementation costs and seamless ongoing service through affordable monthly subscriptions.
+                <span style="position: relative; top: -5px"><i class="fa fa-quote-right fs-5 pl-10"></i></span>
+              </h1>
+              <div class="w-fit mt-40 mx-auto">
+                <div class="bg-btn-wrapper animate__animated animate__slideInLeft"><a class="bg-btn fs-5" href="/signup/crm-signup.html">Learn more</a></div>
+              </div>
+            </div>
+            <div class="col-md-6 pt-100 pb-100 mb-10 erp-cloudBg2">
+              <h1 class="fs-5 text-center w-75 mx-auto lh-base wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                Curious to learn more about our comprehensive
+                <span class="fw-bold">Full-Suite ERP?</span>
+              </h1>
+              <div class="w-fit mt-40 mx-auto">
+                <div class="border-btn-wrapper animate__animated animate__slideInLeft"><a class="border-btn fs-5" href="/signup/crm-signup.html">Join Us Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <!-- footer start -->
     <section class="pt-[60px] lg:pt-[30px] relative bg-heading w-full footer">
-        <!-- Free trail start -->
-        <section id="subscribe" class="relative overflow-hidden">
-            <div class="container px-4 xl:px-0">
-                <div class="bg-[#1A2429] rounded-[20px] overflow-hidden row justify-between relative z-10">
-                    <div class="col-md-6 col-12 relative px-5 py-4 md:px-20">
-                        <h2 class="display-3 fw-bolder leading-[80px] font-extrabold text-white capitalize mt-4">
-                            Start exploring with a <span class="text-sb-orange">Free Trial</span> today.
-                        </h2>
-                        <img class="arrow" src="/assets/img/all-products/arrow_white.svg" alt="arrow">
-                        <div class="bg-btn-wrapper group overflow-hidden w-fit rounded-[999] arrowTrail">
-                            <a class="bg-btn flex h-fit items-center gap-2.5 justify-center px-7 py-3 rounded-[999] hover:text-white uppercase" href="/trail.html">
-                                Start Now
-                                <span class=""><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M13.6875 7.71484L8.6875 12.7148C8.5 12.9023 8.25 12.9961 8 12.9961C7.71875 12.9961 7.46875 12.9023 7.28125 12.7148C6.875 12.3398 6.875 11.6836 7.28125 11.3086L10.5625 7.99609H1C0.4375 7.99609 0 7.55859 0 6.99609C0 6.46484 0.4375 5.99609 1 5.99609H10.5625L7.28125 2.71484C6.875 2.33984 6.875 1.68359 7.28125 1.30859C7.65625 0.902344 8.3125 0.902344 8.6875 1.30859L13.6875 6.30859C14.0938 6.68359 14.0938 7.33984 13.6875 7.71484Z" fill="white"></path>
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <img src="/assets/img/all-products/call-to-action-footer.png" alt="call to action footer" style="width: 400px;" class="hidden lg:block mx-auto object-cover img-fluid">
-                    </div>
-                </div>
+      <section id="subscribe" class="relative">
+        <div class="container px-4 xl:px-0">
+          <div class="bg-[#1A2429] rounded-[20px] row justify-between relative z-10">
+            <div class="col-md-6 col-12 relative px-5 pt-5 pb-100 md:px-20">
+              <h2 class="display-3 fw-bolder leading-[80px] font-extrabold text-white capitalize mt-4">
+                Start exploring with a
+                <span class="text-sb-orange">Free Trial</span>
+                today.
+              </h2>
+              <img class="arrow" src="/assets/img/all-products/arrow_white.svg" alt="arrow" />
+              <div class="bg-btn-wrapper group overflow-hidden w-fit rounded-[999] arrowTrail">
+                <a class="bg-btn flex h-fit items-center gap-2.5 justify-center px-7 py-3 rounded-[999] hover:text-white uppercase" href="/contact-us.html">
+                  Start Now
+                  <span class="">
+                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.6875 7.71484L8.6875 12.7148C8.5 12.9023 8.25 12.9961 8 12.9961C7.71875 12.9961 7.46875 12.9023 7.28125 12.7148C6.875 12.3398 6.875 11.6836 7.28125 11.3086L10.5625 7.99609H1C0.4375 7.99609 0 7.55859 0 6.99609C0 6.46484 0.4375 5.99609 1 5.99609H10.5625L7.28125 2.71484C6.875 2.33984 6.875 1.68359 7.28125 1.30859C7.65625 0.902344 8.3125 0.902344 8.6875 1.30859L13.6875 6.30859C14.0938 6.68359 14.0938 7.33984 13.6875 7.71484Z" fill="white"></path></svg>
+                  </span>
+                </a>
+              </div>
             </div>
-        </section>
-        <!-- Free trail end -->
-        <div class="lg:h-2.5 h-1.4 bg-white w-full absolute -top-0.5 z-0 overflow-hidden"></div>
+            <div class="col-md-6 col-12 align-content-center">
+              <span class="rocketFoot"></span>
+              <img src="/assets/img/all-products/call-to-action-footer.png" alt="call to action footer" class="hidden lg:block mx-auto object-cover img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="lg:h-2.5 h-1.4 bg-white w-full absolute -top-0.5 z-0 overflow-hidden"></div>
     </section>
-    <!-- footer end  -->
-    <!-- back to top -->
-    <a href="#" class="fixed bottom-8 right-4 z-20 back-to-top">
-        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="22.5" cy="22.5" r="22.5" fill="var(--primary)" />
-            <path d="M19 21L23 17M23 17L27 21M23 17V29" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-    </a>
-    <!-- AOS  -->
     <script src="/assets/js/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-    <!-- Jquery -->
     <script src="/assets/js/jquery.min.js"></script>
-    <!-- Jquery easing-->
     <script src="/assets/js/jquery.easing.min.js"></script>
-    <!-- Bootstrap js -->
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <!-- owl js -->
     <script src="/assets/js/owl.carousel.min.js"></script>
-    <!-- wow js -->
     <script src="/assets/js/wow.min.js"></script>
-    <!-- swiper  -->
     <script src="/assets/js/swiper-bundle.js"></script>
-    <!-- validate  -->
     <script src="/assets/js/jquery.validate.js"></script>
-    <!-- plugin  -->
+    <script src="/assets/js/hoverintent.min.js"></script>
     <script src="/assets/js/plugins.js"></script>
-    <!-- all need js  -->
     <script src="/assets/js/main.js"></script>
-    <!-- Rellax plugin -->
     <script src="/assets/js/rellax.min.js"></script>
-    <!-- gsap plugins -->
     <script src="/assets/js/gsap.min.js"></script>
     <script src="/assets/js/ScrollTrigger.min.js"></script>
     <script src="/assets/js/ScrollToPlugin.min.js"></script>
-    <!-- mouse animation  -->
     <canvas class="w-full h-full hidden lg:block max-w-[100vw] max-h-screen fixed z-[9999999999999] top-0 bg-opacity-0 pointer-events-none"></canvas>
-    <script src="/assets/js/mouseCanvas.bundle.js"></script>
     <script type="text/javascript">
-        new WOW().init();
-        // Prevent URL hash from being modified
-        $(window).on('hashchange', function (e) {
-            e.preventDefault();
-            history.pushState("", document.title, window.location.pathname + window.location.search);
-        });
+      new WOW().init();
+      $(window).on('hashchange', function (e) {
+        e.preventDefault();
+        history.pushState('', document.title, window.location.pathname + window.location.search);
+      });
     </script>
-    <script>
-        // Start Rellax
-        var rellax = new Rellax('.rellax-bok');
-
-        // Destroy and create again parallax with previous settings
-        rellax.refresh();
-    </script>
-</body>
-
+  </body>
 </html>
